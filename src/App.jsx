@@ -4,6 +4,7 @@ import Login from './Login'
 
 import './App.css'
 import StopWatch from './StopWatch'
+import Throttle from './Throttle'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <Login />
       <Title>StopWatch</Title>
       <StopWatch />
+      <Title>Throttle</Title>
+      <Throttle />
     </Stack>
   </Container>  
   )
